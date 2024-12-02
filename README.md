@@ -1,6 +1,6 @@
 # Optimized-YOLOv11-for-fallen-person-detection
 
-A real-time, accurate, and non-intrusive fall detection system built using an optimized version of YOLOv8. This system is designed to analyze video streams for fall events and trigger alerts, providing an efficient solution for monitoring vulnerable individuals
+A real-time, accurate, and non-intrusive fall detection system built using an optimized version of YOLO11. This system is designed to analyze video streams for fall events and trigger alerts, providing an efficient solution for monitoring vulnerable individuals
 
 Data preprocessing and Model building are done in this file: 
 https://www.kaggle.com/code/vivekvittalbiragoni/falldetect0-1
