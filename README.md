@@ -5,6 +5,9 @@ A real-time, accurate, and non-intrusive fall detection system built using an op
 Data preprocessing and Model building are done in this file: 
 https://www.kaggle.com/code/vivekvittalbiragoni/falldetect0-1
 
+Modified ultralytics code repo with inclusion CBAM:
+https://github.com/vivekbiragoni/ultralytics   
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
@@ -37,7 +40,6 @@ Falls are a leading cause of injuries among the elderly and other vulnerable gro
 - **OpenCV**: For video processing and visualization.
 - **Python**: Core language for implementation.
 - **Telegram Bot API**: For real-time notifications.
-- **Docker**: For containerized deployment.
 
 ---
 
@@ -60,10 +62,6 @@ Falls are a leading cause of injuries among the elderly and other vulnerable gro
    pip install -r requirements.txt
 3. Configure Telegram Bot:
    Replace the placeholders in the script with your bot token and chat ID.
-4. Set up Docker for deployment:
-   ```bash
-   docker build -t fall-detection-system .
-   docker run -p 7860:7860 fall-detection-system
 
 ## Usage
 ### Running the Application
